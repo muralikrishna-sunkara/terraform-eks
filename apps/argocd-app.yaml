@@ -7,7 +7,7 @@ spec:
   project: default
   
   source:
-    repoURL: https://github.com/<your-username>/<your-repo>.git
+    repoURL: git@github.com:muralikrishna-sunkara/terraform-eks.git
     targetRevision: main
     path: apps/sample-app
   
