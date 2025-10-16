@@ -1,0 +1,12 @@
+# Optional: Configure server to expose via LoadBalancer
+server:
+  service:
+    type: LoadBalancer
+
+# Configure RBAC
+rbac:
+  create: true
+
+# Enable Redis
+redis:
+  enabled: true
